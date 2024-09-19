@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+    color: whitesmoke;
+    background-color: gray;
+    text-transform: uppercase;
+    border-bottom: 5px solid rgb(130, 73, 73);
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
